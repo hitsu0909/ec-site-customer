@@ -1,0 +1,80 @@
+/* base.css */
+
+/* ===== リセット ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ===== 全体 ===== */
+body {
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* ===== 共通テキスト ===== */
+h2 {
+  margin-bottom: 10px;
+}
+
+/* ===== 必須表示 ===== */
+.required {
+  color: red;
+  /* border: 1px solid red; */
+  padding: 2px 4px;
+  margin-left: 5px;
+}
+
+/* ===== エラー ===== */
+.error {
+  color: red;
+  margin-top: 5px;
+  /* border: 1px solid red; */
+}
+
+.error-box {
+  color: red;
+  text-align: center;
+  padding: 15px;
+  margin: 20px auto;
+  border: 1px solid red;
+  width: 50%;
+  background-color: #ffecec;
+}
+
+/* ===== ログイン専用 ===== */
+#new {
+  margin-top: 20px;
+}
+
+th {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.status {
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.pending {
+  background: orange;
+  color: white;
+}
+
+.working {
+  background: blue;
+  color: white;
+}
+
+.shipping {
+  background: purple;
+  color: white;
+}
+
+.done {
+  background: gray;
+  color: white;
+}

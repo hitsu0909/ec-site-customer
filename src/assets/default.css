@@ -1,0 +1,34 @@
+@charset "UTF-8";
+h2 {
+  margin-bottom: 5px;
+}
+.lt {
+  text-align: left;
+}
+.rt {
+  text-align: right;
+}
+
+.mlt {
+  margin-left: auto;
+  margin-right: 10px;
+}
+
+header p {
+  font-size: 0.8em;
+}
+
+.required {
+  color: red;
+  /* border: 1px solid red; */
+}
+
+.hmsg p {
+  height: 1.5em;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.error {
+  color: red;
+}

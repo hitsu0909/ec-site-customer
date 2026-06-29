@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+#new {
+  margin-left: 9em;
+}
+
+th {
+  text-align: right;
+}
+
+footer {
+  margin: 10px;
+}
+
+.message {
+  margin-left: 2em;
+}
