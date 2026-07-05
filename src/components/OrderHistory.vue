@@ -131,7 +131,7 @@ const goDetail = (id) => {
 
 const deleteOrder = async (id, status) => {
   if (status === "未発送") {
-    const ok = confirm("本当に削除しますか？");
+    const ok = confirm("本当に取り消しますか？");
     if (!ok) return;
 
     if (isUpdating.value) return;
