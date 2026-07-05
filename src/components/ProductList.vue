@@ -159,8 +159,8 @@ const fetchProducts = async () => {
 
     productsOriginal.value = formatProducts(data);
     applyFilters();
-    console.log(data);
-    console.log(productsOriginal.value);
+    // console.log(data);
+    // console.log(productsOriginal.value);
   } finally {
     const elapsed = Date.now() - start;
     const min = 600;
