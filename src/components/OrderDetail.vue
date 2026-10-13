@@ -40,7 +40,7 @@
 
                 <td>¥{{ item.price.toLocaleString() }}</td>
 
-                <td>{{ item.quantity }}{{ item.product_id }}</td>
+                <td>{{ item.quantity }}</td>
 
                 <td>¥{{ (item.price * item.quantity).toLocaleString() }}</td>
               </tr>
